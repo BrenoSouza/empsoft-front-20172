@@ -1,0 +1,45 @@
+/* Empty. Add your own CSS if you like */
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    color: rgb(8, 134, 184) !important;
+
+}
+
+.button-block {
+    background-color:#E9EAEE !important;
+}
+
+.img-container {
+    height: 40%;
+    width: 100%;
+}
+
+.img-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.gota-container {
+    max-height: 80%;
+    position: center;
+}
+
+.gota-container img {
+
+    width: 100%;
+    height: 100%
+}
+
+.side-menu {
+    background-color: #3E9CFF;
+}
+
+ion-item {
+    color: white !important;
+    background-color: #3E9CFF !important;
+}

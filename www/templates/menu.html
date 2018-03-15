@@ -1,0 +1,53 @@
+<ion-side-menus class="side-menu">
+  <ion-side-menu-content>
+
+    <ion-side-menu-content>
+
+      <ion-nav-bar class="bar-stable">
+
+        <ion-nav-back-button class="button-icon ion-arrow-left-c"></ion-nav-back-button>
+
+        <ion-nav-buttons side="left">
+          <button class="button button-icon button-clear ion-navicon" ng-click="toggleLeft()">
+              </button>
+        </ion-nav-buttons>
+
+      </ion-nav-bar>
+
+      <ion-nav-view animation="no-animation" name="menuContent"></ion-nav-view>
+
+    </ion-side-menu-content>
+
+    <ion-side-menu side="left" class="side-menu">
+
+      <div class="heading-item item item-avatar side-menu darker-bg">
+        <img src="img/avatar.jpg">
+        <span style="color: white!important; font-size:1.5rem;text-align:center">Maria Silva</span>
+      </div>
+
+      <ion-list class="side-menu">
+        <ion-item nav-clear menu-close>
+          <i class="ion-home"></i> Usuário
+        </ion-item>
+        <ion-item nav-clear menu-close>
+          <i class="icon ion-waterdrop"></i> Índice de Gastos
+        </ion-item>
+        <ion-item nav-clear menu-close>
+          <i class="icon ion-arrow-graph-up-right"></i> Gráficos
+        </ion-item>
+        <ion-item menu-close>
+          <i class="icon ion-calendar"></i> Calendário
+        </ion-item>
+        <ion-item nav-clear menu-close>
+          <i class="icon ion-document-text"></i> Sobre o aplicativo
+        </ion-item>
+        <ion-item nav-clear menu-close ng-click="logout()">
+          <i class="ion-log-out"></i> Sair
+        </ion-item>
+      </ion-list>
+
+    </ion-side-menu>
+
+  </ion-side-menu-content>
+
+</ion-side-menus>
